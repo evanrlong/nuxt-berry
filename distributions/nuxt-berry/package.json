@@ -1,0 +1,33 @@
+{
+  "name": "nuxt-berry",
+  "version": "1.0.0",
+  "bin": "./bin/nuxt-berry.js",
+  "scripts": {
+    "dev": "./bin/nuxt-berry.js dev",
+    "build": "./bin/nuxt-berry.js build",
+    "start": "./bin/nuxt-berry.js start"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.12.5",
+    "consola": "^2.15.0",
+    "core-js": "^3.7.0",
+    "css-loader": "^3.6.0",
+    "esm": "^3.2.25",
+    "eventsource-polyfill": "^0.9.6",
+    "node-fetch": "^2.6.1",
+    "nuxt": "^2.14.7",
+    "pnp-webpack-plugin": "^1.6.4",
+    "postcss-loader": "^3.0.0",
+    "regenerator-runtime": "^0.13.7",
+    "unfetch": "^4.2.0",
+    "vue": "^2.6.12",
+    "vue-client-only": "^2.0.0",
+    "vue-loader": "^15.9.5",
+    "vue-no-ssr": "^1.1.1",
+    "vue-router": "3.4.8",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^4.44.2",
+    "webpack-hot-middleware": "^2.25.0"
+  }
+}

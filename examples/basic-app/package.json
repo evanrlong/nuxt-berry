@@ -1,0 +1,13 @@
+{
+  "name": "basic-app",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt-berry dev",
+    "build": "nuxt-berry build",
+    "start": "nuxt-berry start"
+  },
+  "dependencies": {
+    "nuxt-berry": "workspace:distributions/nuxt-berry"
+  }
+}
