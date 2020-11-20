@@ -8979,6 +8979,28 @@ fsevents@~2.1.2:
 "root-workspace-0b6124@workspace:.":
   version: 0.0.0-use.local
   resolution: "root-workspace-0b6124@workspace:."
+  dependenciesMeta:
+    core-js:
+      built: false
+      unplugged: false
+    ejs:
+      built: false
+      unplugged: false
+    fsevents:
+      built: false
+      unplugged: false
+    nan:
+      built: false
+      unplugged: false
+    node-gyp:
+      built: false
+      unplugged: false
+    nuxt:
+      built: false
+      unplugged: false
+    term-size:
+      built: false
+      unplugged: false
   languageName: unknown
   linkType: soft
 

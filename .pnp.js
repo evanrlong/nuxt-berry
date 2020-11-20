@@ -31,12 +31,9 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         "reference": "workspace:examples/basic-app"
       }
     ],
-    "enableTopLevelFallback": true,
+    "enableTopLevelFallback": false,
     "ignorePatternData": "(^(?:\\.yarn\\/sdks(?:\\/(?!\\.)(?:(?:(?!(?:^|\\/)\\.).)*?)|$))$)",
     "fallbackExclusionList": [
-      ["basic-app", ["workspace:examples/basic-app"]],
-      ["nuxt-berry", ["workspace:distributions/nuxt-berry"]],
-      ["root-workspace-0b6124", ["workspace:."]]
     ],
     "fallbackPool": [
     ],
@@ -4157,14 +4154,14 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["core-js", [
         ["npm:2.6.11", {
-          "packageLocation": "./.yarn/unplugged/core-js-npm-2.6.11-15178ded27/node_modules/core-js/",
+          "packageLocation": "./.yarn/cache/core-js-npm-2.6.11-15178ded27-39ad00b46d.zip/node_modules/core-js/",
           "packageDependencies": [
             ["core-js", "npm:2.6.11"]
           ],
           "linkType": "HARD",
         }],
         ["npm:3.7.0", {
-          "packageLocation": "./.yarn/unplugged/core-js-npm-3.7.0-53202614cd/node_modules/core-js/",
+          "packageLocation": "./.yarn/cache/core-js-npm-3.7.0-53202614cd-95958cddb7.zip/node_modules/core-js/",
           "packageDependencies": [
             ["core-js", "npm:3.7.0"]
           ],
@@ -4948,7 +4945,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["ejs", [
         ["npm:2.7.4", {
-          "packageLocation": "./.yarn/unplugged/ejs-npm-2.7.4-879ed38a4e/node_modules/ejs/",
+          "packageLocation": "./.yarn/cache/ejs-npm-2.7.4-879ed38a4e-f066d9a932.zip/node_modules/ejs/",
           "packageDependencies": [
             ["ejs", "npm:2.7.4"]
           ],
@@ -5787,7 +5784,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["fsevents", [
         ["patch:fsevents@npm%3A1.2.13#builtin<compat/fsevents>::version=1.2.13&hash=127e8e", {
-          "packageLocation": "./.yarn/unplugged/fsevents-patch-4af5b4bfe1/node_modules/fsevents/",
+          "packageLocation": "./.yarn/cache/fsevents-patch-4af5b4bfe1-7bc048c164.zip/node_modules/fsevents/",
           "packageDependencies": [
             ["fsevents", "patch:fsevents@npm%3A1.2.13#builtin<compat/fsevents>::version=1.2.13&hash=127e8e"],
             ["bindings", "npm:1.5.0"],
@@ -5796,7 +5793,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }],
         ["patch:fsevents@npm%3A2.1.3#builtin<compat/fsevents>::version=2.1.3&hash=127e8e", {
-          "packageLocation": "./.yarn/unplugged/fsevents-patch-fa4e06e760/node_modules/fsevents/",
+          "packageLocation": "./.yarn/cache/fsevents-patch-fa4e06e760-e2b8c37934.zip/node_modules/fsevents/",
           "packageDependencies": [
             ["fsevents", "patch:fsevents@npm%3A2.1.3#builtin<compat/fsevents>::version=2.1.3&hash=127e8e"],
             ["node-gyp", "npm:7.1.2"]
@@ -7887,7 +7884,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["nan", [
         ["npm:2.14.2", {
-          "packageLocation": "./.yarn/unplugged/nan-npm-2.14.2-e3ede8ce5d/node_modules/nan/",
+          "packageLocation": "./.yarn/cache/nan-npm-2.14.2-e3ede8ce5d-36349b2e5d.zip/node_modules/nan/",
           "packageDependencies": [
             ["nan", "npm:2.14.2"],
             ["node-gyp", "npm:7.1.2"]
@@ -7972,7 +7969,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["node-gyp", [
         ["npm:7.1.2", {
-          "packageLocation": "./.yarn/unplugged/node-gyp-npm-7.1.2-002c5798eb/node_modules/node-gyp/",
+          "packageLocation": "./.yarn/cache/node-gyp-npm-7.1.2-002c5798eb-fca9ecb1be.zip/node_modules/node-gyp/",
           "packageDependencies": [
             ["node-gyp", "npm:7.1.2"],
             ["env-paths", "npm:2.2.0"],
@@ -8172,7 +8169,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["nuxt", [
         ["npm:2.14.7", {
-          "packageLocation": "./.yarn/unplugged/nuxt-npm-2.14.7-110bb08e48/node_modules/nuxt/",
+          "packageLocation": "./.yarn/cache/nuxt-npm-2.14.7-110bb08e48-b32e450356.zip/node_modules/nuxt/",
           "packageDependencies": [
             ["nuxt", "npm:2.14.7"],
             ["@nuxt/builder", "npm:2.14.7"],
@@ -11207,7 +11204,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
       ]],
       ["term-size", [
         ["npm:2.2.1", {
-          "packageLocation": "./.yarn/unplugged/term-size-npm-2.2.1-77ce7141d0/node_modules/term-size/",
+          "packageLocation": "./.yarn/cache/term-size-npm-2.2.1-77ce7141d0-a013f688f6.zip/node_modules/term-size/",
           "packageDependencies": [
             ["term-size", "npm:2.2.1"]
           ],

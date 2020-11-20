@@ -4,5 +4,35 @@
   "workspaces": [
     "examples/**",
     "distributions/**"
-  ]
+  ],
+  "dependenciesMeta": {
+    "core-js": {
+      "built": false,
+      "unplugged": false
+    },
+    "ejs": {
+      "built": false,
+      "unplugged": false
+    },
+    "fsevents": {
+      "built": false,
+      "unplugged": false
+    },
+    "nan": {
+      "built": false,
+      "unplugged": false
+    },
+    "node-gyp": {
+      "built": false,
+      "unplugged": false
+    },
+    "nuxt": {
+      "built": false,
+      "unplugged": false
+    },
+    "term-size": {
+      "built": false,
+      "unplugged": false
+    }
+  }
 }
