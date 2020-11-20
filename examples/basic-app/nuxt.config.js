@@ -1,6 +1,6 @@
 export default {
   head: {
-    title: 'test'
+    title: 'nuxt-berry'
   },
   server: {
     host: '',
