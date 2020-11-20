@@ -18,11 +18,13 @@ Yarn 2. [Some changes](https://github.com/nuxt/nuxt.js/issues/7142) need to be m
 dependency resolution.  With Yarn 2 compatibility not coming natively [until Nuxt 3](https://github.com/nuxt/nuxt.js/pull/7295),
 I created this light wrapper to make Nuxt 2 :heart: Yarn 2.
 
-**Important:** This is just a proof of concept right now. I do not recommend that anyone uses this in production yet.
+Nuxt Berry should behave exactly like Nuxt, but with Yarn 2 support.
+
+**Important:** This is just a proof of concept right now. I do not recommend anyone use this in production yet.
 
 ## Intended usage
 
-**Please note that this is not currently deployed yet.**
+**Please note that this is not deployed yet!**
 
 Once it is, usage will look like this...
 
@@ -44,40 +46,42 @@ Then add the following scripts to the `package.json` file for your project...
 
 ## Try it out
 
-For now, you should use this repo as a demo of future functionality.
+For now, you should use this as a demo of future functionality.
 
-First clone this repo.  Then, for dev mode...
+First, clone this repo.  Then, for dev mode...
 
 ```bash
 cd examples/basic-app
 
-#run in dev mode
+# run in dev mode
 yarn dev
 
-#or run in prod mode
+# or run in prod mode
 yarn build
 yarn start
 ```
 
-Notice how you do not need to run `yarn install` at any point in the process? Yay Yarn 2!
+Notice how you did not need to run `yarn install` at any point in the process? Yay Yarn 2!
 
-## Known issues
+## The road to v1
 
-- [ ] Nuxt Berry isn't deployed anywhere. [#1](https://github.com/evanrlong/nuxt-berry/issues/1)
-- [ ] Nuxt Berry doesn't resolve all dependencies properly inside Yarn 2 yet. [#2](https://github.com/evanrlong/nuxt-berry/issues/2)
-- [ ] Nuxt Berry doesn't support `generate`. [#3](https://github.com/evanrlong/nuxt-berry/issues/3)
-- [ ] Nuxt Berry doesn't support custom `rootDir`, `srcDir`, or `buildDir` properties in `nuxt.config.js`. [#4](https://github.com/evanrlong/nuxt-berry/issues/4)
-- [ ] Nuxt Berry doesn't support auto component registration using `components: true`. [#5](https://github.com/evanrlong/nuxt-berry/issues/5)
-- [ ] Nuxt Berry doesn't have any tests. [#6](https://github.com/evanrlong/nuxt-berry/issues/6)
-- [ ] Nuxt Berry needs a new home. [#7](https://github.com/evanrlong/nuxt-berry/issues/7)
+- [ ] Nuxt Berry isn't deployed anywhere. [(#1)](https://github.com/evanrlong/nuxt-berry/issues/1)
+- [ ] Nuxt Berry doesn't resolve all dependencies properly inside Yarn 2 yet. [(#2)](https://github.com/evanrlong/nuxt-berry/issues/2)
+- [ ] Nuxt Berry doesn't support `generate`. [(#3)](https://github.com/evanrlong/nuxt-berry/issues/3)
+- [ ] Nuxt Berry doesn't support custom `rootDir`, `srcDir`, or `buildDir` properties in `nuxt.config.js`. [(#4)](https://github.com/evanrlong/nuxt-berry/issues/4)
+- [ ] Nuxt Berry doesn't support auto component registration using `components: true`. [(#5)](https://github.com/evanrlong/nuxt-berry/issues/5)
+- [ ] Nuxt Berry doesn't have any tests. [(#6)](https://github.com/evanrlong/nuxt-berry/issues/6)
+- [ ] Nuxt Berry needs a new home. [(#7)](https://github.com/evanrlong/nuxt-berry/issues/7)
 
-Please report any other issues [here](https://github.com/evanrlong/nuxt-berry/issues)
+Please report any other issues [here](https://github.com/evanrlong/nuxt-berry/issues).
+
+If this catches on and hits v1, I can maintain it until Nuxt 3 comes out.
 
 ## Why I built this
 
 Short answer... I needed it for work.
 
-Long answer... We have a large monorepo containing several Nuxt applications. We are tired of waiting 5-10 minutes to
+Long answer... We have a large monorepo containing several Nuxt applications. We are tired of waiting 5-10 minutes
 for our CI pipeline to run `yarn install` on every commit. We want to make the transition to Yarn 2, which will
 significantly increase the performance of our CI pipelines, but we can't do it without Nuxt.
 
